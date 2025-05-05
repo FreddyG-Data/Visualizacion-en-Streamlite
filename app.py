@@ -6,7 +6,7 @@ import requests
 st.title("🚪 Entradas al Club")
 
 # URL de tu API
-API_URL = "https://15d5-181-129-180-130.ngrok-free.app/entradas"
+API_URL = "https://12e0-181-129-180-130.ngrok-free.app/entradas"
 
 # Llama a la API
 try:
