@@ -10,7 +10,7 @@ API_URL = "https://2250-181-129-180-130.ngrok-free.app/entradas"
 
 # Llama a la API
 try:
-    response = requests.get(url)
+    response = requests.get(API_URL)
     data = response.json()
     
     # Convierte a DataFrame
